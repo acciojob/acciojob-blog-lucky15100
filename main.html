@@ -1,16 +1,57 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Accio Job Blog</title>
+  <style>
+    #scrolling-text {
+      white-space: nowrap;
+      overflow: hidden;
+      animation: scroll-left 10s linear infinite;
+    }
+    
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <h1 id="scrolling-text">Welcome to Acciojobs!</h1>
+  <br>
+  <div>
+    <a href="https://acciojob.com/blog/">
+      <img src="Image_one.jpg" alt="Image One" height="200">
+      <h2>Blog Post One</h2>
+      <p>Short description of Blog Post One</p>
+    </a>
+  </div>
+  <br>
+  <div>
+    <a href="https://acciojob.com/blog/brute-force-vs-optimization/">
+      <img src="Image_two.jpg" alt="Image Two" height="200">
+      <h2>Blog Post Two</h2>
+      <p>Short description of Blog Post Two</p>
+    </a>
+  </div>
+  <br>
+  <div>
+    <a href="https://acciojob.com/blog/dsa-vs-competitive-programming/">
+      <img src="Image_three.jpg" alt="Image Three" height="200">
+      <h2>Blog Post Three</h2>
+      <p>Short description of Blog Post Three</p>
+    </a>
+  </div>
+  <br>
+  <div>
+    <a href="https://acciojob.com/blog/10-tips-to-optimize-your-linkedin-profile-and-attract-recruiters/">
+      <img src="Image_four.jpg" alt="Image Four" height="200">
+      <h2>Blog Post Four</h2>
+      <p>Short description of Blog Post Four</p>
+    </a>
+  </div>
 </body>
-
 </html>
